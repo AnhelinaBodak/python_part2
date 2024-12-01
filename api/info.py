@@ -5,6 +5,6 @@ router = APIRouter(tags=['Info page'])
 @router.get("/info")
 def app_info():
     return {
-        "app_name": "CVE FastAPI App",
+        "app": " FastAPI App for retriving CVEs from json file",
         "author": "Anhelina Bodak",
     }
